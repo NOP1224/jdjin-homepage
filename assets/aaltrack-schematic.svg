@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+<title id="title">AALTrack alternating attention schematic</title>
+<desc id="desc">RGB and thermal branches alternate full self-attention and predicted attention, share cross-modal guidance, and feed a tracking head. This is a simplified schematic, not a figure reproduced from the paper.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#667e95"/></marker></defs>
+<rect width="720" height="420" fill="#f7fafc"/>
+<text x="36" y="48" font-family="Arial,sans-serif" font-weight="700" font-size="25" fill="#1e3956">AALTrack</text>
+<text x="36" y="73" font-family="Arial,sans-serif" font-size="13" fill="#63788d">Alternating attention learning for RGB-T tracking</text>
+<rect x="34" y="112" width="102" height="94" rx="9" fill="#e5f1fa" stroke="#92bbd9"/>
+<text x="85" y="153" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#23658d">RGB</text>
+<text x="85" y="176" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#4e7189">features</text>
+<rect x="34" y="243" width="102" height="94" rx="9" fill="#fff1e5" stroke="#deb592"/>
+<text x="85" y="284" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#a86533">TIR</text>
+<text x="85" y="307" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#936f59">features</text>
+<path d="M137 159H178M137 290H178M306 159H346M306 290H346M476 159H518M476 290H518" stroke="#667e95" stroke-width="2.5" marker-end="url(#arrow)" fill="none"/>
+<rect x="180" y="112" width="126" height="94" rx="9" fill="#fff" stroke="#5592bd" stroke-width="2"/>
+<text x="243" y="149" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#27638c">Full self-</text>
+<text x="243" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#27638c">attention</text>
+<rect x="180" y="243" width="126" height="94" rx="9" fill="#fff" stroke="#c38959" stroke-width="2"/>
+<text x="243" y="280" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#9b643d">Predicted</text>
+<text x="243" y="299" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#9b643d">attention</text>
+<rect x="348" y="112" width="128" height="94" rx="9" fill="#fff" stroke="#5592bd" stroke-width="2"/>
+<text x="412" y="149" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#27638c">Predicted</text>
+<text x="412" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#27638c">attention</text>
+<rect x="348" y="243" width="128" height="94" rx="9" fill="#fff" stroke="#c38959" stroke-width="2"/>
+<text x="412" y="280" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#9b643d">Full self-</text>
+<text x="412" y="299" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#9b643d">attention</text>
+<path d="M326 186L326 263M486 263L486 186" stroke="#87a4b4" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arrow)" fill="none"/>
+<text x="327" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#597789">cross-modal</text>
+<rect x="520" y="148" width="164" height="154" rx="12" fill="#eaf2f5" stroke="#9bb9c9"/>
+<text x="602" y="202" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#2b526a">RGB-T fusion</text>
+<text x="602" y="229" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#45697e">Tracking head</text>
+<path d="M518 159L538 174M518 290L538 276" stroke="#667e95" stroke-width="2.5" marker-end="url(#arrow)" fill="none"/>
+<text x="36" y="389" font-family="Arial,sans-serif" font-size="11" fill="#8091a1">Simplified method schematic based on the paper abstract</text>
+</svg>
